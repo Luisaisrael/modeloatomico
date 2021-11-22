@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans:ital,wght@1,700&family=Great+Vibes&family=Lobster&family=Londrina+Shadow&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans:ital,wght@1,700&family=Great+Vibes&family=Lobster&family=Londrina+Shadow&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans:ital,wght@1,700&family=Great+Vibes&family=Lobster&family=Londrina+Shadow&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+body {
+    background-image: url("imgs/wallpaperbetter.jpg");
+    background-size: cover;
+    text-align: justify;
+    text-align: center;
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(23, 47, 100);
+    padding-top: 3px; 
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+    color:gold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1::selection, h1::selection {
+    background-color: dodgerblue;
+}
+
+header li {
+    display: inline-block;
+    text-align: justify;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navegador:visited {
+    color: black;
+}
+
+.navegador:hover {
+    background-color: rgb(247, 224, 18);
+    padding: 5px;
+}
+
+.navegador::selection, nevegador ::selection {
+    color: white;
+    background-color: blue;
+}
+
+header ul {
+    background-color: white;
+    font-size: 18px;
+}
+
+h2 {
+    font-family:'Balsamiq Sans', cursive;
+    font-size: 35px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h2::selection, h2 ::selection {
+    background-color: rgb(127, 201, 235);
+}
+
+p, .texto, .biografia, .links {
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 600px;
+}
+
+p::selection, p ::selection {
+    background-color: gold;
+}
+
+.negrito, header ul {
+    font-weight: bold;
+}
+
+.atomo {
+    margin-left: 80px;
+}
+
+.modelos {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.subtitulo1 {
+    text-align: left;
+    margin-left: 330px;
+    padding-top: 10px;
+}
+
+.subtitulo2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.subtitulo3 {
+    text-align: left;
+    margin-left: 135px;
+    padding-top: 40px;
+}
+
+#linha-temporal {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+}
+
+#Atômicos, #so-foto {
+    display: block;
+    float: right;
+    width: 250px;
+    height: auto;
+    margin-top: 14px;
+    margin-right: 180px;
+    border-radius: 50%;
+}
+
+table {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 90px;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+.foto {
+    width: 40px;
+}
+
+th {
+    font-size: 20px;
+    background-color:rgb(127, 201, 235);
+}
+
+td {
+    text-align: center;
+    padding: 2px;
+}
+
+table th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 35%;
+    border-radius: 20px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#voltar-topo {
+    background-image: url(imgs/4196777.png);
+    background-size: cover;
+    background-color: gold;
+    position: fixed;
+    right: 0;
+    bottom: 5px;
+    margin: 15px;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 45px;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    display: inline-block;
+}
+
+.texto {
+    max-width: 750px;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.biografia {
+    float: right;
+    max-width: 400px;
+    margin-right: 25px;
+}
+
+.teoria1, .modelo1 {
+    text-align: center;
+    background-color:rgb(127, 201, 235);
+    border: 1px solid rgb(127, 201, 235);
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.p1, .p2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img2 {
+    width: 500px;
+    border: 1px white solid;
+    border-radius: 9px;
+}
+
+#img1 {
+    padding-top: 15px;
+    width: 300px;
+    
+}
+
+.legenda {
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p3 {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+.p4 {
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+
+.autor, .titulo-creditos {
+    background-color: rgb(127, 201, 235);
+    margin: 5px;
+    border: 1px solid rgb(127, 201, 235);
+    border-radius: 7px;
+}
+
+.quemfoi {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.legendinha {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+footer {
+    background-color: rgb(127, 201, 235);
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.logo-rodape {
+    width: 100px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.texto-rodape {
+    background-color: rgb(127, 201, 235);
+    font-size: 20px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.creditos {
+    color: black;
+}
+
+.creditos:hover {
+    color: white;
+    background-color: rgb(23, 47, 100);
+    padding: 3px;
+}
+
+.links {
+    display: block;
+    float: left;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#so-foto, #lu-foto {
+    border: 7px solid gold;
+    border-radius: 50%;
+    width: 250px;
+}
+
+#so-foto:hover, #lu-foto:hover {
+    animation: girando 3s linear infinite;
+}
+
+@keyframes girando {
+    from{ transform: rotate(360deg); }
+  }
+
+#so-foto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#lu-foto {
+    margin-top: 30px;
+}
+
+.sofia, .luisa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1024px) and (min-width: 700px) {
+    article {
+      width: 100%;
+    }
+}
+  
+@media (max-width: 700px) and (min-width: 500px) {
+    article {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+    main {
+        flex-direction: column;
+    }
+  
+@media (max-width: 500px) {
+    article {
+        width: 90%;
+    }
+}
+
